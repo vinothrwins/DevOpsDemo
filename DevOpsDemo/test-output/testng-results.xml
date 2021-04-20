@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Application is Launched]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to Register Demo Page]]>
-    </line>
-    <line>
-      <![CDATA[Application is closed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-04-19T21:51:48 IST" name="Suite" finished-at="2021-04-19T21:51:58 IST" duration-ms="10461">
+  <suite started-at="2021-04-20T11:50:29 IST" name="Suite" finished-at="2021-04-20T11:52:38 IST" duration-ms="129237">
     <groups>
     </groups>
-    <test started-at="2021-04-19T21:51:48 IST" name="Test" finished-at="2021-04-19T21:51:58 IST" duration-ms="10461">
-      <class name="automationsuite.RegisterDemo">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:automationsuite.RegisterDemo@61dd025]" started-at="2021-04-19T21:51:48 IST" name="launchBrowser" finished-at="2021-04-19T21:51:57 IST" duration-ms="8612" status="PASS">
+    <test started-at="2021-04-20T11:50:29 IST" name="Test" finished-at="2021-04-20T11:52:38 IST" duration-ms="129237">
+      <class name="com.nxtgenai.automationsuite.HandlingMultipleBrowser">
+        <test-method signature="handlingMutipleBrowser()[pri:1, instance:com.nxtgenai.automationsuite.HandlingMultipleBrowser@647fd8ce]" started-at="2021-04-20T11:51:35 IST" name="handlingMutipleBrowser" finished-at="2021-04-20T11:51:57 IST" duration-ms="22643" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Application is Launched]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- handlingMutipleBrowser -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingMultipleBrowser -->
+      <class name="com.nxtgenai.automationsuite.HandlingMultipleTabs">
+        <test-method signature="handlingMutipleTabs()[pri:1, instance:com.nxtgenai.automationsuite.HandlingMultipleTabs@159f197]" started-at="2021-04-20T11:51:57 IST" name="handlingMutipleTabs" finished-at="2021-04-20T11:52:24 IST" duration-ms="27054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingMutipleTabs -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingMultipleTabs -->
+      <class name="com.nxtgenai.automationsuite.HandlingDynamicWebTable">
+        <test-method signature="browserCommands()[pri:1, instance:com.nxtgenai.automationsuite.HandlingDynamicWebTable@78aab498]" started-at="2021-04-20T11:52:24 IST" name="browserCommands" finished-at="2021-04-20T11:52:38 IST" duration-ms="13735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCommands -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingDynamicWebTable -->
+      <class name="com.nxtgenai.automationsuite.RegisterDemo">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.nxtgenai.automationsuite.RegisterDemo@5276e6b0]" started-at="2021-04-20T11:50:29 IST" name="launchBrowser" finished-at="2021-04-20T11:50:41 IST" duration-ms="11727" status="PASS">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="navigateToRegisterDemo()[pri:1, instance:automationsuite.RegisterDemo@61dd025]" started-at="2021-04-19T21:51:57 IST" name="navigateToRegisterDemo" finished-at="2021-04-19T21:51:58 IST" duration-ms="1703" status="PASS">
+        <test-method signature="navigateToRegisterDemo()[pri:1, instance:com.nxtgenai.automationsuite.RegisterDemo@5276e6b0]" started-at="2021-04-20T11:50:41 IST" name="navigateToRegisterDemo" finished-at="2021-04-20T11:50:44 IST" duration-ms="3024" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Navigated to Register Demo Page]]>
-            </line>
           </reporter-output>
         </test-method> <!-- navigateToRegisterDemo -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:automationsuite.RegisterDemo@61dd025]" started-at="2021-04-19T21:51:58 IST" name="closeApplication" finished-at="2021-04-19T21:51:58 IST" duration-ms="116" status="PASS">
+        <test-method signature="registerDemo()[pri:2, instance:com.nxtgenai.automationsuite.RegisterDemo@5276e6b0]" started-at="2021-04-20T11:50:44 IST" name="registerDemo" finished-at="2021-04-20T11:51:05 IST" duration-ms="21817" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Application is closed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- automationsuite.RegisterDemo -->
+        </test-method> <!-- registerDemo -->
+        <test-method signature="validateSuccessfulMsg()[pri:3, instance:com.nxtgenai.automationsuite.RegisterDemo@5276e6b0]" started-at="2021-04-20T11:51:05 IST" name="validateSuccessfulMsg" finished-at="2021-04-20T11:51:06 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.nxtgenai.automationsuite.RegisterDemo@5276e6b0]" started-at="2021-04-20T11:51:06 IST" name="closeBrowser" finished-at="2021-04-20T11:51:07 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.nxtgenai.automationsuite.RegisterDemo -->
+      <class name="com.nxtgenai.automationsuite.HandlingFramesName">
+        <test-method signature="handlingFrames()[pri:1, instance:com.nxtgenai.automationsuite.HandlingFramesName@6193932a]" started-at="2021-04-20T11:51:25 IST" name="handlingFrames" finished-at="2021-04-20T11:51:35 IST" duration-ms="9403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingFrames -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingFramesName -->
+      <class name="com.nxtgenai.automationsuite.HandlingPopUpAlert">
+        <test-method signature="handlingpopup()[pri:1, instance:com.nxtgenai.automationsuite.HandlingPopUpAlert@71b1176b]" started-at="2021-04-20T11:51:07 IST" name="handlingpopup" finished-at="2021-04-20T11:51:25 IST" duration-ms="18672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingpopup -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingPopUpAlert -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

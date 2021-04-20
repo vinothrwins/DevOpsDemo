@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationsuite.RegisterDemo">
+      <class name="com.nxtgenai.automationsuite.HandlingDynamicWebTable">
         <methods>
-          <include name="navigateToRegisterDemo"/>
-          <include name="closeApplication"/>
-          <include name="launchBrowser"/>
+          <include name="browserCommands"/>
         </methods>
-      </class> <!-- automationsuite.RegisterDemo -->
+      </class> <!-- com.nxtgenai.automationsuite.HandlingDynamicWebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
